@@ -33,11 +33,11 @@ modules:
         #- waybar
         #- swaybg
         - steam
-        - faugus-launcher
-        - fcitx5
-        - fcitx5-chinese-addons
-        - fcitx5-configtool
-        - zsh
+        #- faugus-launcher
+        #- fcitx5
+        #- fcitx5-chinese-addons
+        #- fcitx5-configtool
+        #- zsh
         #- coolercontrol
         
     #remove:
