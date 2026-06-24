@@ -32,18 +32,18 @@ modules:
       packages:
         #- micro
         #- starship
-        #- fastfetch
-        #- freerdp
-        #- niri
-        #- waybar
-        #- swaybg
+        - fastfetch
+        - freerdp
+        - niri
+        - waybar
+        - swaybg
         #- steam
         - faugus-launcher
         - fcitx5
         - fcitx5-chinese-addons
         - fcitx5-configtool
         - zsh
-        #- coolercontrol
+        - coolercontrol
         #- localsend
         
     #remove:
