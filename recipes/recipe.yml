@@ -37,7 +37,7 @@ modules:
         - fcitx5-chinese-addons
         - fcitx5-configtool
         - zsh
-        - coolercontrol
+        #- coolercontrol
         
     #remove:
       #packages:
