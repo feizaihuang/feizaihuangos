@@ -44,7 +44,7 @@ modules:
         - fcitx5-configtool
         - zsh
         #- coolercontrol
-        - localsend
+        #- localsend
         
     #remove:
       #packages:
