@@ -13,6 +13,11 @@ image-version: stable # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: script
+    snippets:
+      - "curl -Lo /etc/yum.repos.d/terra.repo https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo"
+      - "sed -i 's/gpgcheck=1/gpgcheck=0/g' /etc/yum.repos.d/terra.repo"
+      - "sed -i 's/repo_gpgcheck=1/repo_gpgcheck=0/g' /etc/yum.repos.d/terra.repo"
   - type: files
     files:
       - source: system
@@ -39,6 +44,7 @@ modules:
         - fcitx5-configtool
         - zsh
         #- coolercontrol
+        - localsend
         
     #remove:
       #packages:
