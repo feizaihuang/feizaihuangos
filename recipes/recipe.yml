@@ -6,7 +6,8 @@ name: feizaihuangos
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+#base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/wayblueorg/niri:latest
 image-version: 44 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -26,11 +27,11 @@ modules:
       packages:
         #- micro
         #- starship
-        - fastfetch
-        - freerdp
-        - niri
-        - waybar
-        - swaybg
+        #- fastfetch
+        #- freerdp
+        #- niri
+        #- waybar
+        #- swaybg
         - steam
         - faugus-launcher
         - fcitx5
