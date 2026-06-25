@@ -33,6 +33,7 @@ modules:
       packages:
         #- micro
         #- starship
+        - ghostty
         - fastfetch
         - freerdp
         - pamixer
@@ -55,8 +56,9 @@ modules:
         - coolercontrol
         #- localsend
         
-    #remove:
-      #packages:
+    remove:
+      packages:
+        alacritty
         # example: removing firefox (in favor of the flatpak)
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         # - firefox
