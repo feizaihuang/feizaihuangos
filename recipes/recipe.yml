@@ -43,7 +43,7 @@ modules:
         - fuzzel
         - grim
         - ideviceinstaller
-        - liquidctl
+        #- liquidctl
         - noctalia-shell
         - noctalia-qs
         #- steam
